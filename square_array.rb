@@ -3,5 +3,6 @@ def square_array(array)
     new_array=[]
     y = x**2
     new_array << y
+    puts y
   end
 end
