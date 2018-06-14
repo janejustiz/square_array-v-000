@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.each {|x| new_array << x}
 end
