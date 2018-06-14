@@ -1,3 +1,6 @@
 def square_array(array)
-  array.each {|x| new_array << x}
+  array.each do |x|
+    new_array=[]
+    new_array << x
+  end
 end
