@@ -1,6 +1,6 @@
 def square_array(array)
   array.each do |x|
-    array.unshift(x**2)
     array.delete(x)
+    array.unshift(x**2)
   end
 end
